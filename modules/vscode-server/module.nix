@@ -15,7 +15,7 @@ moduleConfig: {
     nodejsPackage = mkOption {
       type = nullOr package;
       default = null;
-      example = pkgs.nodejs_20;
+      example = pkgs.nodejs_18;
       description = ''
         Whether to use a specific Node.js rather than the version supplied by VS Code server.
       '';
